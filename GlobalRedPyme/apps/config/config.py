@@ -251,50 +251,170 @@ else:
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_central',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_personas_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_personas',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_core_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_core',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_pymes_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_pymes',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_corp_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_corp',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_mdm_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_mdm',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_mdp_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_mdp',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_mdo_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_mdo',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_gdo_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_gdo',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
         'grp_gde_db': {
             'ENGINE': 'djongo',
             'NAME': 'grp_personas_gde',
             'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': env.str('MONGODB_ATLAS'),
+            },
+            'LOGGING': {
+                'version': 1,
+                'loggers': {
+                    'djongo': {
+                        'level': 'DEBUG',
+                        'propagate': False,                        
+                    }
+                },
+            },
         },
     }
